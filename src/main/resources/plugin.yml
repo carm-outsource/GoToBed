@@ -1,0 +1,4 @@
+name: GoToBed
+main: com.carmwork.plugin.gotobed.Main
+version: 1.0.0 - SNAPSHOT
+author: CarmJos

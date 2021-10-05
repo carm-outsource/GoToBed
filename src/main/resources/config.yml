@@ -1,0 +1,7 @@
+settings:
+  # 通知消息
+  #  - 支持使用 “&” 代替小结号作为颜色符号
+  #  - 变量： %(player)   躺上床的玩家名
+  #  - 变量： %(sleeping) 已经躺上床的玩家数
+  #  - 变量： %(online)   在线玩家数
+  message: "&8☾ &f%(player) &7喊你睡觉啦！(&f%(sleeping)/%(online)&7)"

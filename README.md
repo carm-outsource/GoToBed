@@ -2,8 +2,8 @@
 
 ![CodeSize](https://img.shields.io/github/languages/code-size/CarmJos/GoToBed)
 [![License](https://img.shields.io/github/license/CarmJos/GoToBed)](https://opensource.org/licenses/mit-license.php)
-[![Java CI with Maven](https://github.com/CarmJos/UserPrefix/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/CarmJos/GoToBed/actions/workflows/maven.yml)
-![Support](https://img.shields.io/badge/Minecraft-Java%201.16--Latest-yellow)
+[![Java CI with Maven](https://github.com/CarmJos/GoToBed/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/CarmJos/GoToBed/actions/workflows/maven.yml)
+![Support](https://img.shields.io/badge/Minecraft-Java%201.12--Latest-yellow)
 ![](https://visitor-badge.glitch.me/badge?page_id=gotobed.readme)
 
 ## 简介

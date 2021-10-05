@@ -60,4 +60,5 @@ settings:
 > *以上文字来自 [五种开源协议GPL,LGPL,BSD,MIT,Apache](https://www.oschina.net/question/54100_9455) 。*
 
 ## 其他信息
-![](https://visitor-badge.glitch.me/badge?page_id=gotobed.readme)
+
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=gotobed.readme)

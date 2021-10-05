@@ -18,7 +18,7 @@
 
 - **[必须]** 插件本体基于 [Spigot-API](https://hub.spigotmc.org/stash/projects/SPIGOT) 、[BukkitAPI](http://bukkit.org/) 实现。
 
-详细依赖列表可见 [Dependencies](https://github.com/CarmJos/UserPrefix/network/dependencies) 。
+详细依赖列表可见 [Dependencies](https://github.com/CarmJos/GoToBed/network/dependencies) 。
 
 ## 配置文件示例
 

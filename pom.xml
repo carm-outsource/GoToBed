@@ -9,6 +9,38 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <name>睡觉提醒</name>
+    <description>提醒那些不睡觉的玩家快去睡觉！</description>
+    <url>https://github.com/CarmJos/GoToBed</url>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>${project.url}/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>GitHub Actions</system>
+        <url>${project.url}/actions/workflows/maven.yml</url>
+    </ciManagement>
+
+    <developers>
+        <developer>
+            <id>CarmJos</id>
+            <name>Carm Jos</name>
+            <email>carm@carm.cc</email>
+            <roles>
+                <role>Main Developer</role>
+            </roles>
+            <url>https://work.carm.cc</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>https://opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
 
     <repositories>
 

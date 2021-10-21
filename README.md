@@ -1,10 +1,10 @@
 # GoToBed 快去睡觉！
 
-![CodeSize](https://img.shields.io/github/languages/code-size/CarmJos/GoToBed)
-[![License](https://img.shields.io/github/license/CarmJos/GoToBed)](https://opensource.org/licenses/mit-license.php)
-[![Java CI with Maven](https://github.com/CarmJos/GoToBed/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/CarmJos/GoToBed/actions/workflows/maven.yml)
-![Support](https://img.shields.io/badge/Minecraft-Java%201.12--Latest-yellow)
-![](https://visitor-badge.glitch.me/badge?page_id=gotobed.readme)
+![CodeSize](https://img.shields.io/github/languages/code-size/CarmJos/GoToBed?style=flat-square)
+[![Maven](https://img.shields.io/github/workflow/status/CarmJos/GoToBed/maven?style=flat-square)](https://github.com/CarmJos/GoToBed/actions/workflows/maven.yml)
+![Support](https://img.shields.io/badge/Minecraft-Java%201.12--Latest-yellow?style=flat-square)
+![Version](https://img.shields.io/github/v/release/CarmJos/GoToBed?style=flat-square)
+[![license](https://img.shields.io/github/license/CarmJos/GoToBed?style=flat-square)](https://opensource.org/licenses/mit-license.php)
 
 ## 简介
 
@@ -58,3 +58,7 @@ settings:
 > - MIT 协议是所有开源许可中最宽松的一个，除了必须包含许可声明外，再无任何限制。
 >
 > *以上文字来自 [五种开源协议GPL,LGPL,BSD,MIT,Apache](https://www.oschina.net/question/54100_9455) 。*
+
+## 其他信息
+
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=gotobed.readme)

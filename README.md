@@ -40,7 +40,7 @@ settings:
 
 感谢您成为开源项目的支持者！
 
-<img height=25% width=25% src="https://raw.githubusercontent.com/CarmJos/UserPrefix/master/img/PAY.jpg" />
+<img height=25% width=25% src="https://raw.githubusercontent.com/CarmJos/CarmJos/main/img/donate-code.jpg" />
 
 ## 开源协议
 

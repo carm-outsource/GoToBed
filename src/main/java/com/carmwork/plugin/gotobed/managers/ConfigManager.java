@@ -2,9 +2,12 @@ package com.carmwork.plugin.gotobed.managers;
 
 import com.carmwork.plugin.gotobed.Main;
 import com.carmwork.plugin.gotobed.utils.MessageParser;
-import org.bukkit.Bukkit;
+import net.minecraft.util.MathHelper;
+import org.bukkit.GameRule;
+import org.bukkit.World;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Player;
 
 import java.util.Objects;
 
@@ -30,18 +33,23 @@ public class ConfigManager {
      *
      * @return 通知消息
      */
-    public static String getAlertMessage(String playerName) {
+    public static String getAlertMessage(Player player) {
         return MessageParser.parseColor(Objects.requireNonNull(getConfiguration().getString(
-                "settings.message",
-                "&8☾ &f%(player) &7喊你睡觉啦！(&f%(sleeping)/%(online)&7)"
-        )))
-                .replace("%(player)", playerName)
-                .replace("%(online)", Integer.toString(Bukkit.getOnlinePlayers().size()))
-                .replace("%(sleeping)", Integer.toString(getSleepingPlayers()));
+                        "settings.message",
+                        "&8☾ &f%(player) &7喊你睡觉啦！(&f%(sleeping)/%(online)&7)"
+                )))
+                .replace("%(player)", player.getName())
+                .replace("%(online)", Integer.toString(getNightSkippingRequirement(player.getWorld())))
+                .replace("%(sleeping)", Integer.toString(getSleepingPlayers(player.getWorld())));
     }
 
-    public static int getSleepingPlayers() {
-        return (int) Bukkit.getOnlinePlayers().stream().filter(LivingEntity::isSleeping).count();
+    public static int getSleepingPlayers(World world) {
+        return (int) world.getPlayers().stream().filter(LivingEntity::isSleeping).count();
+    }
+
+    public static int getNightSkippingRequirement(World world) {
+        int percentage = world.getGameRuleValue(GameRule.PLAYERS_SLEEPING_PERCENTAGE);
+        return Math.max(1, MathHelper.f((float) (world.getPlayers().size() * percentage) / 100.0f));
     }
 
     public static FileConfiguration getConfiguration() {

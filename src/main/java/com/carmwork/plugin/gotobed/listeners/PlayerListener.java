@@ -17,7 +17,7 @@ public class PlayerListener implements Listener {
                 @Override
                 public void run() {
                     if (event.getPlayer().isOnline() && event.getPlayer().isSleeping()) {
-                        Bukkit.getServer().broadcastMessage(ConfigManager.getAlertMessage(event.getPlayer().getName()));
+                        Bukkit.getServer().broadcastMessage(ConfigManager.getAlertMessage(event.getPlayer()));
                     }
                 }
             }.runTaskLater(Main.getInstance(), 5L);
